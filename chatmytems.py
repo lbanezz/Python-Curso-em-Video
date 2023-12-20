@@ -6,6 +6,7 @@ from nltk.tokenize import word_tokenize
 from nltk import sent_tokenize
 import string
 
+
 # Baixe os recursos necessários do NLTK (execute apenas uma vez)
 nltk.download('punkt')
 nltk.download('stopwords')
@@ -15,6 +16,7 @@ data = {
     'O que é inteligência artificial?': 'Inteligência artificial (IA) é a simulação de processos de inteligência humana por máquinas, especialmente sistemas de computador.',
     'O que é aprendizado de máquina?': 'Aprendizado de máquina é um campo da inteligência artificial que permite que os sistemas aprendam automaticamente e melhorem com a experiência sem serem explicitamente programados.',
     'Quais são os tipos de aprendizado de máquina?': 'Existem três tipos principais de aprendizado de máquina: supervisionado, não supervisionado e por reforço.'
+    ''
 }
 
 # Pré-processamento dos dados
