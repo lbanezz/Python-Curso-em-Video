@@ -1,4 +1,2 @@
-from math import sqrt, floor 
-num = int(input("Digite um número: "))
-raiz = sqrt(num)
-print('A raiz de {} é igual a {} ' .format(num, floor(raiz )))
+import emoji
+print(emoji.emojize("Olá, Mundo :sunglasses", user_aliases=True))
