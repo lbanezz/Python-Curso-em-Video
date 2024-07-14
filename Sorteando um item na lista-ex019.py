@@ -1,4 +1,4 @@
-import random import choice 
+from random import choice 
 n1 = str(input('primeiro aluno:'))
 n2 = str(input('Segundo aluno:'))
 n3 = str(input('Terceirfo aluno:'))
