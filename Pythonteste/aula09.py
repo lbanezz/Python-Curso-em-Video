@@ -1,4 +1,3 @@
-frase = 'Curso em vído Python'
-print (frase [::2])
-
-print('Oi')
+frase = 'Curso em vídeo Python'
+dividido = frase.split()
+print(dividido[2] [3])
