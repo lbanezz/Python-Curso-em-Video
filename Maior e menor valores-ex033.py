@@ -5,10 +5,15 @@ c = int(input('Terceiro valor:'))
 menor = a
 if b<a and b<c:
     menor = b
-if c<a and c,b:
+if c<a and c<b:
     menor = c
 # Verificando quem é o maior
 maior = a
 if b>a and b>c:
     maior = b
-if 
+if c>a and c>b:
+    maior = c
+print('O menor valor digitando foi {}' .format(menor))
+print('O maior valor digitando foi {}' .format(maior))
+ 
+
