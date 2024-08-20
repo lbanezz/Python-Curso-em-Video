@@ -11,7 +11,12 @@ if opção == 1:
 elif opção == 2:
     total = preço - (preço * 5 / 100)
 elif opção == 3:
-    total = preço 
+    total = preço
     parcela = total / 2
     print('Sua compra será parcelada em 2x de R${:.2f}' .format(parcela))
-print('Sua compra de R${:.2f} vai cusatr R${:.2f} no final.' .format(preço, total))
+elif opção == 4:
+    total = preço + (preço * 20 / 100)
+    totalparc = int(input('Quantas parcelas?  '))
+    parcela = total / totalparc
+    print('Sua compra será parcelada em {}x de R${:.2f} COM JUROS' .format(totalparc, parcela))
+print('Sua compra de R${:.2f} vai custa R${:.2f} no final.' .format(preço, total))
