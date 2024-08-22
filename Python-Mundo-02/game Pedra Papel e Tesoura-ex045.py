@@ -6,5 +6,5 @@ print('''Suas opções:
 [ 1 ] PAPEL
 [ 2 ] TESOURA ''')
 jogador = int(input('Qual é a sua jogada? '))
-print('Computador jogou {}' .intens([computador]))
-print('Jogador jogou {}' .tens[jogador]) 
+print('Computador jogou {}' .format(itens[computador]))
+print('Jogador jogou {}' .format(itens[jogador]))
