@@ -1,3 +1,5 @@
-for cont in range(0,10):
+from time import sleep
+for cont in range(10, -1, -1):
     print(cont)
-print('ACABOU')
+    sleep(0.5)
+print('BUM! BUM!')
