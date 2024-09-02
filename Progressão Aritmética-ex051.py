@@ -1,5 +1,6 @@
 primeiro = int(input('Primeiro termo: '))
 razão = int(input('Razão: '))
-for d in range(1, 10, 1):
+décimo = primeiro + (10 - 1) * razão
+for d in range(primeiro, décimo, razão):
         print('{}' .format(d), end=' -> ')
 print('ACABOU')
