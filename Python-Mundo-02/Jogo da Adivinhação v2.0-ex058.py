@@ -9,4 +9,9 @@ while not acertou:
     palpites += 1
     if jogador == computador:
         acertou = True
+    else:
+        if jogador < computador:
+            print('Mias... Tente mais uma vez.')
+        elif jogador > computador:
+            print('Menos... Tnte mais um avez.')   
 print('Acertou com {} palpites'.format(palpites))
