@@ -8,3 +8,4 @@ while cont <= 10:
     print('{} > '.format(termo), end='')
     termo = termo + razão
     cont += 1
+print('FIM')
