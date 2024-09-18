@@ -1,5 +1,7 @@
-d = cont = 0
-while cont < 3:
+d = s = 0
+while d != 999:
     d = int(input('Digite um número: '))
-    cont += 1
-print('Acabou')
+    if d == 999:
+        break
+    s += d
+print('A soma vale {}'.format(s))
