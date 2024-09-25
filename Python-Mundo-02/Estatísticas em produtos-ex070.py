@@ -17,6 +17,6 @@ while True:
     if resp == 'N':
         break
 print('{:-^40}'.format('FIM DO PROGRAMA'))
-print(f'O total da compra foi {total:.2f}')
+print(f'O total da compra foi {valor:.2f}')
 print(f'Temos {totmil} produtos cutando mais de R$1000.00')
 print(f'O produto mais barato custa R${menor:.2f}')
