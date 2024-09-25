@@ -1,4 +1,5 @@
 total = totmil = menor = cont = 0
+barato = ''
 while True:
     produto = str(input('Nome do Porduto: '))
     valor = float(input('Valor: R$'))
@@ -19,4 +20,4 @@ while True:
 print('{:-^40}'.format('FIM DO PROGRAMA'))
 print(f'O total da compra foi {valor:.2f}')
 print(f'Temos {totmil} produtos cutando mais de R$1000.00')
-print(f'O produto mais barato custa R${menor:.2f}')
+print(f'O produto mais barato foi {barato} que custa R${menor:.2f}')
