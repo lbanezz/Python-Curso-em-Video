@@ -1,0 +1,15 @@
+total = totmil = 0
+while True:
+    produto = str(input('Nome do Porduto: '))
+    valor = float(input('Valor: R$'))
+    total += valor
+    if valor > 1000:
+        totmil += 1
+    resp = ' '
+    while resp not in 'SN':
+        resp = str(input('Quer continuar? [S/N] ')).strip().upper()[0]
+    if resp == 'N':
+        break
+print('{:-^40}'.format('FIM DO PROGRAMA'))
+print(f'O total da compra foi {total:.2f}')
+print(f'Temos {totmil} produtos cutando mais de R$1000.00')
