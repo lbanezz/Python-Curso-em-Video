@@ -21,4 +21,5 @@ while True:
              totcéd = 0   
         if total == 0:
              break
+print('Voltei sempre ao BANCO CEV! tenha um bom dia!')
                 
