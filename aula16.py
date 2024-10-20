@@ -1,9 +1,2 @@
-lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim') 
-
-for cont in range(0, len(lanche)):
-    print(lanche[cont])
-
-#for comida in lanche:
-#   print(f'Eu vou comer {comida}')
-print('Comi muito!')
-
+pessoa = ('David', 24, 'M', 53.03)
+print(pessoa)
