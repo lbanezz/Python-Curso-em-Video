@@ -7,5 +7,5 @@ while True:
     num = int(input('Digite um número entre 0 e 20: '))
     if 0 <= num <= 20:
         break
-    print('Tnte novamente. ', end='')
+    print('Tente novamente. ', end='')
 print(f'Você digitou o número {cont[num]}')
