@@ -1,4 +1,6 @@
 from random import randint
-n = randint(1,10), randint(1,10), randint(1,10), 
+numeros = randint(1,10), randint(1,10), randint(1,10), 
 randint(1,10), randint(1,10),
-print(f'Eu sorteei o valor {n}')
+print('Os valores sorteados foram :')
+for n in numeros: 
+    print(f'Eu sortei o valor {n}')
