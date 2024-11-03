@@ -1,7 +1,5 @@
-valores = []
-valores.append(5)
-valores.append(9)
-valores.append(4)
-
-for v in valores:
-    print(f'{v}...')
+a = [2, 3, 4, 7]
+b = a[:]
+b[2] = 8
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
