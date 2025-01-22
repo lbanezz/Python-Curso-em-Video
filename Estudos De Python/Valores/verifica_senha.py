@@ -1,5 +1,5 @@
 senha = input('Digite a senha: ')
-if senha == 'Gordinho347':
+if senha == 'Lbanezz22':
     print('Senha correta')
 else:
     print('Seha incorreta')
